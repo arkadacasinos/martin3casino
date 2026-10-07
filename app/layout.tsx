@@ -23,6 +23,7 @@ export default function RootLayout({
   return (
     <html lang="ru" className={`${x4v7Head.variable} ${x4v7Body.variable}`}>
       <head>
+        <meta name="yandex-verification" content="6ce9fc7be010a196" />
         <title>Мартин казино официальный сайт — Martin Casino зеркало рабочее, играть онлайн</title>
         <meta
           name="description"
